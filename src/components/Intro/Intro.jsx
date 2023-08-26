@@ -61,10 +61,10 @@ const Intro = () => {
                     </div>
                     <p className={styles.p}>Скачайте приложение и создайте заказ.<br></br>Установка займет всего 2 минуты.</p>
                     <div className={styles.row}>
-                        <a href="https://play.google.com/store/apps/dev?id=5475543677782911277&hl=ru&gl=US&pli=1" target="_blank" rel="noreferrer" className={styles.app}>
+                        <a href="https://play.google.com/store/apps/details?id=elapp.rubbish" target="_blank" rel="noreferrer" className={styles.app}>
                             <img src="/google.svg" alt="" draggable={false} />
                         </a>
-                        <a href="https://apps.apple.com/ru/app/2%D0%B3%D0%B8%D1%81-%D0%BA%D0%B0%D1%80%D1%82%D1%8B-%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%BE%D1%80-%D0%BC%D0%B5%D1%81%D1%82%D0%B0/id481627348" target="_blank" rel="noreferrer" className={styles.app}>
+                        <a href="https://apps.apple.com/ru/app/вынос-мусора/id6451442506?l" target="_blank" rel="noreferrer" className={styles.app}>
                             <img src="/appstore.svg" alt="" draggable={false} />
                         </a>
                     </div>
