@@ -1,0 +1,33 @@
+@import '../../styles/mixins.scss';
+.footer{
+    border-top: solid rgba(23, 171, 73, 0.10);
+    @include res('padding-top', 40px);
+    @include res('padding-bottom', 40px);
+    @include res('border-width', 1px);
+    @include media(576){
+        @include resa('padding-top', 40px);
+        @include resa('padding-bottom', 40px);
+        @include resa('border-width', 1px);
+    }
+}
+.body{
+    @include res('width', 1200px);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include media(576){
+        @include resa('width', 330px);
+    }
+}
+.p{
+    color: #8A978D;
+    @include res('font-size', 14px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; 
+    @include media(576){
+        @include resa('font-size', 14px);
+    }
+}
